@@ -1,19 +1,23 @@
+@import "variables.less";
+
 /**
  * Header
  */
 .row.header {
     height: 60px;
-    background: #fff;
+    background: @dark;
     margin-bottom: 15px;
     & > div:last-child {
         padding-right: 0;
     }
     .meta {
         .page {
+            color: @highlight;
             font-size: 17px;
             padding-top: 11px;
         }
         .breadcrumb-links {
+            color: @light;
             font-size: 10px;
         }
         div {
@@ -38,7 +42,7 @@
             text-align: center;
             vertical-align: middle;
             a {
-                color: #919191;
+                color: @highlight;
                 display: block;
             }
             i {

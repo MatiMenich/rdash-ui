@@ -51,22 +51,31 @@
   }
 }
 
+/* #592727 RED */
+/* #2f5927 GREEN */
+/* #30426a BLUE (default)*/
+/* Sidebar background color */
+/* Sidebar header and footer color */
+/* Sidebar title text colour */
+/* Sidebar menu item hover color */
 /**
  * Header
  */
 .row.header {
   height: 60px;
-  background: #fff;
+  background: #212121;
   margin-bottom: 15px;
 }
 .row.header > div:last-child {
   padding-right: 0;
 }
 .row.header .meta .page {
+  color: #27ffe0;
   font-size: 17px;
   padding-top: 11px;
 }
 .row.header .meta .breadcrumb-links {
+  color: #ffffff;
   font-size: 10px;
 }
 .row.header .meta div {
@@ -90,7 +99,7 @@
   vertical-align: middle;
 }
 .row.header .user > .item a {
-  color: #919191;
+  color: #27ffe0;
   display: block;
 }
 .row.header .user > .item i {
@@ -183,6 +192,13 @@
   }
 }
 
+/* #592727 RED */
+/* #2f5927 GREEN */
+/* #30426a BLUE (default)*/
+/* Sidebar background color */
+/* Sidebar header and footer color */
+/* Sidebar title text colour */
+/* Sidebar menu item hover color */
 /* Fonts */
 @font-face {
   font-family: 'Montserrat';
@@ -236,16 +252,16 @@ body {
   transition: all .4s ease 0s;
 }
 .green {
-  background: #23ae89 !important;
+  background: #17bd80 !important;
 }
 .blue {
-  background: #2361ae !important;
+  background: #009ddc !important;
 }
 .orange {
-  background: #d3a938 !important;
+  background: #ffc103 !important;
 }
 .red {
-  background: #ae2323 !important;
+  background: #f96e6e !important;
 }
 .form-group .help-block.form-group-inline-message {
   padding-top: 5px;
@@ -266,14 +282,14 @@ div.input-mask {
  * Sidebar
  */
 #sidebar-wrapper {
-  background: #30426a;
+  background: #303030;
 }
 ul.sidebar .sidebar-main a,
 .sidebar-footer,
 ul.sidebar .sidebar-list a:hover,
 #page-wrapper:not(.open) ul.sidebar .sidebar-title.separator {
   /* Sidebar header and footer color */
-  background: #2d3e63;
+  background: #2b2b2b;
 }
 ul.sidebar {
   position: absolute;
@@ -310,7 +326,7 @@ ul.sidebar .sidebar-main .menu-icon {
   line-height: 60px;
 }
 ul.sidebar .sidebar-title {
-  color: #738bc0;
+  color: #7d7d7d;
   font-size: 12px;
   height: 35px;
   line-height: 40px;
@@ -323,12 +339,12 @@ ul.sidebar .sidebar-list {
 ul.sidebar .sidebar-list a {
   text-indent: 25px;
   font-size: 15px;
-  color: #b2bfdc;
+  color: #9fa1a4;
   line-height: 40px;
 }
 ul.sidebar .sidebar-list a:hover {
   color: #fff;
-  border-left: 3px solid #e99d1a;
+  border-left: 3px solid #21ffe0;
   text-indent: 22px;
 }
 ul.sidebar .sidebar-list a:hover .menu-icon {
@@ -371,7 +387,7 @@ ul.sidebar .sidebar-list .menu-icon {
   text-align: center;
 }
 .sidebar-footer div a {
-  color: #b2bfdc;
+  color: #9fa1a4;
   font-size: 12px;
   line-height: 43px;
 }
